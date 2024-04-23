@@ -85,12 +85,19 @@ body{
     background-color:#B0C4DE;
   }
 .homepage .welcome{
-    margin:0 auto;
-    padding-top:100px;
-    width:600px;
+    margin-top:60px;
+    margin-left:120px;
+    padding:100px;
+    width:800px;
+    height:400px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 30px;
 }
+
 .homepage .welcome h1:hover{
     font-size:50px;
+    font-family: 楷体;
     color:green;
 }
 
@@ -162,20 +169,23 @@ body{
 .service .hd{
     background-color: white;
 }
-.service ul{
+.service .hd ul{
     display:flex;
     justify-content:flex-end;
 }
-.service ul a{
+.service .hd li{
+    margin-bottom:10px;
+}
+.service .hd ul a{
     padding:0 15px;
 	border-right:2px solid white;
 	font-size:16px;
 	color:black;
 }
-.service li:last-child a{
+.service .hd li:last-child a{
     border-right:0;
 }
-.service ul a:hover{
+.service .hd ul a:hover{
     color:green;
     font-size:20px;
     border-bottom:2px solid green;
@@ -191,4 +201,43 @@ html{
 .footer p{
     font-size:12px;
     color:#666;
+}
+.A{
+    height:400px;
+    margin-top:80px;
+    margin-left:50px;
+    margin-right:50px;
+}
+.service .A .pic:hover{
+    height:220px;
+    background-color: green;
+}
+.service .A ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service .A li{
+    margin-bottom: 14px;
+    width: 300px;
+    height: 271px;
+    background-color: pink;
+}
+.service .A .pic{
+    height:200px;
+}
+.A li .text{
+    padding:30px;
+    height:150px;
+    background-color:#fff;
+}
+.A .text h4:hover{
+    font-size:25px;
+}
+.A .text h4{
+    margin-bottom:13px;
+    height:14px;
+    font-size:18px;
+    line-height:20px;
+    font-weight:400;
 }
